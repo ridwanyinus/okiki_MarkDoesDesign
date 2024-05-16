@@ -1,0 +1,12 @@
+<svg width="168" height="70" viewBox="0 0 168 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="portfolio-pre/next-btn">
+<g id="previous-btn">
+<circle id="Ellipse 3" cx="35.3457" cy="35" r="33.5" stroke="white" stroke-width="3"/>
+<path id="Vector 1" d="M43.9877 21.605L26.2716 35.4321L43.9877 49.2593" stroke="white" stroke-width="3"/>
+</g>
+<g id="next-btn">
+<circle id="Ellipse 3_2" cx="133" cy="35" r="33.5" transform="rotate(180 133 35)" stroke="white" stroke-width="3"/>
+<path id="Vector 1_2" d="M124.358 48.395L142.074 34.5679L124.358 20.7407" stroke="white" stroke-width="3"/>
+</g>
+</g>
+</svg>
