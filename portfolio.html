@@ -3,9 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="portfolio.css" />
     <title>portfolio</title>
   </head>
   <body>
-    portfolio
+    <!-- Navbar Section -->
+    <header>
+      <nav>
+        <a href="index.html" id="logo">
+          <img src="assets/Logo.png" alt="Logo" class="home_logo" />
+        </a>
+
+        <div class="navbar-menu">
+          <ul class="nav_links">
+            <li><a href="about.html"> About Us</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="portfolio.html"> Portfolio</a></li>
+            <li><a class="nav-links" href="#"> Blog</a></li>
+            <a href="viewProject.html">
+              <button id="nav_btn" class="Navbar_btn shadow-drop-2-center">Start a Project</button>
+            </a>
+          </ul>
+        </div>
+
+        <div id="hamburger-menu" class="bar_container">
+          <svg fill="#01000F" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="currentColor" class="hamburger-button">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z" />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <section class="portfolio_display">
+      <!-- Product Visualization  -->
+      <div>
+        <h1 class="product_h1">Product Visualizations</h1>
+        <img src="assets/Line11.svg" alt="line" />
+      </div>
+      <div class="Product_video">
+        <div class="product_after">
+          <img class="play_btn" src="assets/Play-btn.svg" alt="Play-btn" />
+        </div>
+        <a href="#">
+          <a href="viewProject.html">
+            <button class="shadow-drop-2-center">View Project</button>
+          </a>
+          <img class="next-btn" src="assets/next-btn.svg" alt="next-btn" />
+        </a>
+      </div>
+      <!-- Architectural Visualizations -->
+      <div>
+        <h1 class="product_h1">Architectural Visualizations</h1>
+        <img src="assets/Line11.svg" alt="line" />
+      </div>
+      <div class="Product_video">
+        <div class="product_after">
+          <img class="play_btn" src="assets/Play-btn.svg" alt="Play-btn" />
+        </div>
+        <a href="#">
+          <a href="viewProject.html">
+            <button class="shadow-drop-2-center">View Project</button>
+          </a>
+          <img class="next-btn" src="assets/next-btn.svg" alt="next-btn" />
+        </a>
+      </div>
+      <!-- Graphics Design -->
+      <div>
+        <h1 class="product_h1">Graphics Design</h1>
+        <img src="assets/Line11.svg" alt="line" />
+      </div>
+      <div class="Product_video">
+        <div class="product_after">
+          <img class="play_btn" src="assets/Play-btn.svg" alt="Play-btn" />
+        </div>
+        <a href="#">
+          <a href="viewProject.html">
+            <button class="shadow-drop-2-center">View Project</button>
+          </a>
+          <img class="next-btn" src="assets/next-btn.svg" alt="next-btn" />
+        </a>
+      </div>
+      <!-- Art -->
+      <div>
+        <h1 class="product_h1">Art</h1>
+        <img src="assets/Line11.svg" alt="line" />
+      </div>
+      <div class="Product_video">
+        <div class="product_after">
+          <img class="play_btn" src="assets/Play-btn.svg" alt="Play-btn" />
+        </div>
+        <a href="#">
+          <a href="viewProject.html">
+            <button class="shadow-drop-2-center">View Project</button>
+          </a>
+          <img class="next-btn" src="assets/next-btn.svg" alt="next-btn" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer_seperator"></div>
+
+      <div class="footer__container">
+        <div class="footer-logo_links">
+          <div class="img-footer">
+            <img src="assets/footerlogo.svg" alt="footerlogo" class="footer__logo" />
+            <p class="footer__impression">
+              make a <br />
+              visible impression
+            </p>
+          </div>
+
+          <div class="footer__company_images">
+            <img src="assets/linkedin.svg" alt="linkedin" />
+            <img src="assets/instagram.svg" alt="instagram" />
+            <img src="assets/behance.svg" alt="behance" />
+            <img src="assets/dribble.svg" alt="dribble" />
+            <p class="footer__mail">contact@markgraphics.com</p>
+          </div>
+        </div>
+        <div class="Links-container">
+          <div class="footer__links WWd">
+            <h1>What we do</h1>
+            <a href="#">Home </a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact us</a>
+          </div>
+
+          <div class="footer__links">
+            <h1>Work</h1>
+            <a href="#">Suo Naturals</a>
+            <a href="#">WRO</a>
+            <a href="#">MBS</a>
+            <a href="#">See all</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© markdoesgraphics 2023</p>
+    </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
