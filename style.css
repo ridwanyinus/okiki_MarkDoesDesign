@@ -2,13 +2,9 @@ body {
   background: var(--white);
   max-width: 834px;
   height: 100%;
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
-.des {
-  background-color: black;
-  max-width: 834px;
-  height: 5px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -29,6 +25,7 @@ nav {
 }
 
 .nav_links {
+  display: none;
   padding: 2rem;
   position: absolute;
   top: 49px;
@@ -68,7 +65,7 @@ nav {
   margin-top: 3em;
   margin-bottom: 7em;
   position: relative;
-  overflow: hidden;
+  background-color: var(--white);
 }
 
 .hero_h1 {
@@ -590,9 +587,9 @@ footer {
 .footer__links a:hover {
   color: var(--orange);
 }
-.Links-container{
-display: flex;
-gap: 100px;
+.Links-container {
+  display: flex;
+  gap: 100px;
 }
 .WWd {
   margin-right: 3rem;

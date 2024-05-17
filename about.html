@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>About-MarkdoesGraphics</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <header>
+      <nav>
+        <a href="index.html" id="logo">
+          <img src="assets/Logo.png" alt="Logo" class="home_logo" />
+        </a>
+
+        <div class="navbar-menu">
+          <ul class="nav_links">
+            <li><a href="about.html"> About Us</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="portfolio.html"> Portfolio</a></li>
+            <li><a class="nav-links" href="#"> Blog</a></li>
+            <a href="viewProject.html">
+              <button id="nav_btn" class="Navbar_btn shadow-drop-2-center">Start a Project</button>
+            </a>
+          </ul>
+        </div>
+
+        <div id="hamburger-menu" class="bar_container">
+          <svg fill="#01000F" viewBox="0 0 24 24" strokeWidth="{1.5}" stroke="currentColor" class="hamburger-button">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z" />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <!-- About_hero Section -->
+    <section id="about_hero">
+      <div class="section__padding">
+        <center>
+          <h1 class="about_h1">We Create Stunning Product Visuals and Graphics designs.</h1>
+        </center>
+      </div>
+
+      <div class="about-article">
+        <h2 class="about-paragraph">
+          <span>
+            At MarkDoesGraphics, we're not just a creative force; we're a team that embraces the future. We're fully remote, united by a shared passion for design and a commitment to delivering
+            excellence.
+          </span>
+
+          <span> Our mission is to elevate brands and bring visions to life through captivating visuals and immersive experiences.</span>
+
+          With a distributed team that spans the globe, we're redefining what's possible in the world of design. Join us on this journey, and together, we'll craft innovation, no matter where we are.
+        </h2>
+      </div>
+    </section>
+    <!-- Carousel -->
+    <div class="carousel">
+      <center>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="assets/ab1ea3110ebddf10c387971edc2d916.jpg" alt="carousel-img" class="carousel_img-1" />
+          </div>
+
+          <div class="carousel-item active">
+            <img src="assets/who-we-are.gif" alt="carousel-gif" class="carousel_gif" />
+          </div>
+
+          <div class="carousel-item"><img src="assets/ab2fa0bce8b54619f10f43817be192aae6.jpg" alt="carousel-img" class="carousel_img-2" /></div>
+        </div>
+
+        <div class="carousel-dots">
+          <span class="dot active" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </center>
+    </div>
+
+    <div class="about-team-div">
+      <h1 class="about_team">Our fully remote team collaborates seamlessly to deliver outstanding results, embracing the challenges of a dynamic, digital landscape.</h1>
+    </div>
+
+    <div class="about_vision">
+      <div class="vison_h1">
+        <h1>Our Vision</h1>
+        <span class="vision_line"></span>
+      </div>
+
+      <center>
+        <p class="about_vison-p">
+          is to be the creative powerhouse that transforms ideas into visual masterpieces, setting new standards for innovation and design excellence. We aspire to be the go-to destination for brands
+          seeking to make a lasting impact in the digital world.
+        </p>
+      </center>
+
+      <div class="vison_mission">
+        <h1 class="about_mission-h1">Our Mission</h1>
+      </div>
+      <center>
+        <p class="about-mission-p">
+          is to elevate brands through captivating visuals and immersive experiences, offering tailored solutions that meet our clients' unique needs. With a commitment to creativity, innovation, and
+          precision, we craft visual narratives that leave indelible impressions.
+        </p>
+      </center>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer_seperator"></div>
+
+      <div class="footer__container">
+        <div class="footer-logo_links">
+          <div class="img-footer">
+            <img src="assets/footerlogo.svg" alt="footerlogo" class="footer__logo" />
+            <p class="footer__impression">
+              make a <br />
+              visible impression
+            </p>
+          </div>
+
+          <div class="footer__company_images">
+            <img src="assets/linkedin.svg" alt="linkedin" />
+            <img src="assets/instagram.svg" alt="instagram" />
+            <img src="assets/behance.svg" alt="behance" />
+            <img src="assets/dribble.svg" alt="dribble" />
+            <p class="footer__mail">contact@markgraphics.com</p>
+          </div>
+        </div>
+        <div class="Links-container">
+          <div class="footer__links WWd">
+            <h1>What we do</h1>
+            <a href="#">Home </a>
+            <a href="#">Services</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact us</a>
+          </div>
+
+          <div class="footer__links">
+            <h1>Work</h1>
+            <a href="#">Suo Naturals</a>
+            <a href="#">WRO</a>
+            <a href="#">MBS</a>
+            <a href="#">See all</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© markdoesgraphics 2023</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

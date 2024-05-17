@@ -1,0 +1,390 @@
+body {
+  background: var(--white);
+  max-width: 834px;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 1rem 5rem;
+  z-index: 99;
+}
+
+.home_logo {
+  width: 241px;
+}
+
+.hamburger-button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav_links {
+  display: none;
+  padding: 2rem;
+  position: absolute;
+  top: 49px;
+  right: 10px;
+  margin: 1rem;
+  width: 210px;
+  border-radius: 5px;
+  background: var(--dark);
+  box-shadow: 0 0 0 5 rgba(0, 0, 0, 0.2);
+  font-family: var(--quattrocento);
+}
+
+.nav_links li {
+  padding: 0.5rem;
+}
+
+.nav_links a {
+  color: var(--white);
+}
+
+.nav_links button {
+  font-size: 16px;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background: var(--lblue);
+  box-shadow: 1px 1px 5px var(--lblue);
+  color: #fff;
+  font-family: var(--quattrocento);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+/* About_Hero Section */
+
+#about_hero {
+  padding-bottom: 3rem;
+}
+
+.section__padding {
+  padding-top: 1em;
+  padding-left: 7em;
+  padding-right: 7em;
+  width: 100%;
+}
+
+.about_h1 {
+  color: var(--black);
+  font-family: "Quattrocento Sans";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 120px */
+  margin-top: 1rem;
+}
+
+.about-article {
+  margin-top: 43px;
+  padding: 0 4rem;
+}
+
+.about-paragraph {
+  color: #000;
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141%; /* 67.68px */
+  text-align: center;
+}
+
+.about-paragraph span {
+  margin-bottom: 1em;
+  display: block;
+}
+
+.DTA_MARCH02 {
+  margin-top: 1rem;
+  padding-right: 12rem;
+  display: flex;
+  justify-content: end;
+}
+
+.about_retreat {
+  margin-top: 3rem;
+  display: flex;
+  padding-left: 10rem;
+}
+
+.about-team-div {
+  margin: 5em 0;
+}
+
+.about_team {
+  color: var(--dark);
+  text-align: center;
+  font-family: var(--mulish);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141%; /* 63.45px */
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Carousel */
+
+.carousel {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  max-width: 800px;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel_img-1 {
+  width: 460px;
+  height: 500px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.carousel_img-2 {
+  width: 460px;
+  height: 500px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.carousel_gif {
+  width: 460px;
+  height: 510px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* Dot Indicators */
+.carousel-dots {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active {
+  background-color: #717171;
+  transform: scale(1.5); /* Increase size of active dot */
+}
+
+.about-team-div {
+  margin: 2em 0;
+}
+
+.about_team {
+  color: var(--dark);
+  text-align: center;
+  font-family: var(--mulish);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141%; /* 63.45px */
+  margin: 0 auto;
+}
+
+.about_vision {
+  background-color: var(--dark);
+  padding: 4rem 0 0 0;
+}
+
+.vison_h1 {
+  margin-bottom: 43px;
+}
+
+.vison_h1 h1 {
+  color: var(--white);
+  font-family: var(--mulish);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+}
+
+.vison_h1 h1::after {
+  position: absolute;
+  background: #e5e5e5;
+  width: 200px;
+  height: 5px;
+  content: "";
+  bottom: 0;
+  right: 300px;
+}
+
+.about_vison-p {
+  color: #e5e5e5;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141%; /* 67.68px */
+  width: 689px;
+  flex-shrink: 0;
+}
+
+.about_mission-h1 {
+  color: var(--white);
+  font-family: var(--mulish);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 43px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about_mission-h1::after {
+  position: absolute;
+  background: #e5e5e5;
+  width: 290px;
+  height: 5px;
+  content: "";
+  bottom: 0;
+  right: 300px;
+}
+
+.about-mission-p {
+  color: #e5e5e5;
+  font-family: Mulish;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141%; /* 67.68px */
+  width: 689px;
+  flex-shrink: 0;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+/* Footer */
+footer {
+  padding: 2rem 5rem 1rem 5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.footer__container div {
+  flex-wrap: wrap;
+}
+
+.footer-logo_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-bottom: 1rem;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.footer__impression {
+  color: var(--dark);
+  font-family: var(--mulish);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__company_images {
+  margin: 1rem 0;
+}
+
+.footer__company_images img {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.footer__mail {
+  color: var(--black);
+  font-family: var(--quattrocento);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.footer__links h1 {
+  color: var(--dark);
+  font-family: var(--quattrocento);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.footer__links a {
+  color: var(--dark);
+  font-family: var(--mulish);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 191.5%; /* 61.28px */
+  margin-left: 0.5rem;
+}
+
+.footer__links a:hover {
+  color: var(--orange);
+}
+
+.Links-container {
+  display: flex;
+  gap: 100px;
+}
+
+.WWd {
+  margin-right: 3rem;
+}
+
+.copyright {
+  color: var(--black);
+  font-family: var(--quattrocento);
+  font-size: 20px;
+  font-weight: 400;
+}
