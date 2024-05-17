@@ -235,11 +235,11 @@ nav {
 .vison_h1 h1::after {
   position: absolute;
   background: #e5e5e5;
-  width: 200px;
+  width: 173.938px;
   height: 5px;
   content: "";
   bottom: 0;
-  right: 300px;
+  right: 350px;
 }
 
 .about_vison-p {
@@ -268,11 +268,11 @@ nav {
 .about_mission-h1::after {
   position: absolute;
   background: #e5e5e5;
-  width: 290px;
+  width: 173.938px;
   height: 5px;
   content: "";
   bottom: 0;
-  right: 300px;
+  right: 350px;
 }
 
 .about-mission-p {
